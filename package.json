@@ -1,0 +1,33 @@
+{
+  "name": "word_transformation",
+  "version": "1.0.0",
+  "description": "https://discuss.codecademy.com/t/challenge-word-transformation/84306/5",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-defaults": "^9.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "watch": "./node_modules/mocha/bin/mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janfabian/word_transformation.git"
+  },
+  "keywords": [
+    "programming",
+    "challenge",
+    "word",
+    "transformation"
+  ],
+  "author": "Jan Fabian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janfabian/word_transformation/issues"
+  },
+  "homepage": "https://github.com/janfabian/word_transformation#readme"
+}
