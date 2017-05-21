@@ -32,7 +32,11 @@ const dict = [
 
 
 describe("Word Transformation", () => {
-  it("should compare words", () => {
-    wt.compareWords(dict[0], dict[1]);
+  it("should count levenshtein distance kitten, sitting", () => {
+    expect(wt.levenshtein("kitten", "sitting"), 3);
+  })
+
+  it("should count levenshtein distance humid, humic", () => {
+    expect(wt.levenshtein("humid", "humic"), 1);
   })
 })
